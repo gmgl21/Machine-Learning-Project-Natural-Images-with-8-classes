@@ -21,11 +21,11 @@ def resize_images(input_dir, output_dir, target_size):
             print(f"Could not read: {filename}")
 
 # Input and output directories
-input_dir = "./natural_images/person"
-output_dir = "./resized/person"
+input_dir = "./CleaningImages/fruit"
+output_dir = "./resized/fruitV2"
 
 # Target size for resizing
-target_size = (256, 256)  # Set your desired width and height
+target_size = (180, 180)  # Set your desired width and height
 
 # Resize images
 resize_images(input_dir, output_dir, target_size)
